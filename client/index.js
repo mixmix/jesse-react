@@ -1,11 +1,10 @@
-var React = require('react')
-var reactDom = require('react-dom')
+const React = require('react')
+const reactDom = require('react-dom')
 
-function App () {
-  return (
-    <div>Hey</div>
-  )
-}
+const App = () => (
+  <div>Hey yo</div>
+)
+
 
 reactDom.render(<App />, document.body.querySelector('.app'))
 

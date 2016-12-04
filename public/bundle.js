@@ -4,13 +4,13 @@
 var React = require('react');
 var reactDom = require('react-dom');
 
-function App() {
+var App = function App() {
   return React.createElement(
     'div',
     null,
-    'Hey'
+    'Hey yo'
   );
-}
+};
 
 reactDom.render(React.createElement(App, null), document.body.querySelector('.app'));
 
